@@ -82,15 +82,9 @@ async fn initialize() {
 
 
 fn main() {
-    let jh = std::thread::spawn(move || {
-        let rt = tokio::runtime::Builder::new_current_thread().enable_all().build().unwrap();
-        rt.block_on(async move {
-            initialize().await;
-        });
-        
-    });
-
-    let _ = jh.join();
-    println!("Failed.");
+     let rt = tokio::runtime::Builder::new_current_thread().enable_all().build().unwrap();
+     rt.block_on(async move {
+        initialize().await;
+     });
 }
 
