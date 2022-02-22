@@ -1,9 +1,9 @@
 # Teslaq
-producer/consumer system based on grpc, optimize for minimal resource usage   
+message-broker system based on grpc, optimize for minimal resource usage   
 
 # Pattern 
   Client/Consumer send X demand request,
-  Producer/server response at maximum X events  
+  Producer/server response at maximum X messages  
   
  
 # Resource Usage
