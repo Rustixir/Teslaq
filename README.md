@@ -7,6 +7,6 @@ message-broker based on grpc, optimize for minimal resource usage
   
  
 # Resource Usage
-  Cpu: from 1 to X
+  Cpu: 1 is enough _ 
   Memory: ~10MB
   
