@@ -1,5 +1,5 @@
 # Teslaq
-message-broker system based on grpc, optimize for minimal resource usage   
+message-broker based on grpc, optimize for minimal resource usage   
 
 # Pattern 
   Client/Consumer send X demand request,
